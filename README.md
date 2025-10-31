@@ -1,80 +1,80 @@
-# 📔 Mi Diario Personal
+# 📔 Personal Diary
 
-Una aplicación web moderna y elegante para mantener tu diario personal. Crea, edita y gestiona tus entradas de forma intuitiva, con todas tus memorias guardadas localmente en tu navegador.
+A modern and elegant web application to keep your personal diary. Create, edit, and manage your entries intuitively, with all your memories stored locally in your browser.
 
-## ✨ Características
+## ✨ Features
 
-- 📝 **Crear nuevas entradas**: Registra tus pensamientos y momentos especiales con títulos, fechas y contenido completo
-- ✏️ **Editar entradas**: Modifica tus entradas existentes cuando quieras
-- 🗑️ **Eliminar entradas**: Elimina entradas que ya no necesites
-- 🔍 **Búsqueda**: Busca entre todas tus entradas por título, contenido o fecha
-- 💾 **Persistencia local**: Todas tus entradas se guardan automáticamente en el almacenamiento local del navegador
-- 📱 **Diseño responsivo**: Funciona perfectamente en dispositivos móviles, tablets y escritorio
-- 🎨 **Interfaz moderna**: Diseño limpio y elegante con animaciones suaves
+- 📝 **Create new entries**: Record your thoughts and special moments with titles, dates, and full content
+- ✏️ **Edit entries**: Modify your existing entries whenever you want
+- 🗑️ **Delete entries**: Remove entries you no longer need
+- 🔍 **Search**: Search through all your entries by title, content, or date
+- 💾 **Local persistence**: All your entries are automatically saved in your browser's local storage
+- 📱 **Responsive design**: Works perfectly on mobile devices, tablets, and desktop
+- 🎨 **Modern interface**: Clean and elegant design with smooth animations
 
-## 🚀 Cómo usar
+## 🚀 How to Use
 
-### Instalación
+### Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
 ```bash
-git clone https://github.com/tu-usuario/diario-personal.git
+git clone https://github.com/ZapataMejia/personal-diary.git
 ```
 
-2. Navega a la carpeta del proyecto:
+2. Navigate to the project folder:
 ```bash
-cd diario-personal
+cd personal-diary
 ```
 
-3. Abre el archivo `index.html` en tu navegador preferido.
+3. Open the `index.html` file in your preferred browser.
 
-¡Eso es todo! No se requiere instalación de dependencias ni configuración adicional.
+That's it! No dependency installation or additional configuration required.
 
-### Uso básico
+### Basic Usage
 
-1. **Crear una nueva entrada**:
-   - Completa el título, fecha y contenido en el formulario
-   - Haz clic en "💾 Guardar"
+1. **Create a new entry**:
+   - Fill in the title, date, and content in the form
+   - Click "💾 Save"
 
-2. **Editar una entrada**:
-   - Haz clic en el botón "✏️ Editar" de la entrada que deseas modificar
-   - Realiza los cambios necesarios
-   - Haz clic en "💾 Guardar Cambios"
+2. **Edit an entry**:
+   - Click the "✏️ Edit" button on the entry you want to modify
+   - Make the necessary changes
+   - Click "💾 Save Changes"
 
-3. **Eliminar una entrada**:
-   - Haz clic en el botón "🗑️ Eliminar" de la entrada que deseas eliminar
-   - Confirma la acción en el modal
+3. **Delete an entry**:
+   - Click the "🗑️ Delete" button on the entry you want to remove
+   - Confirm the action in the modal
 
-4. **Buscar entradas**:
-   - Utiliza el cuadro de búsqueda para filtrar tus entradas por título, contenido o fecha
+4. **Search entries**:
+   - Use the search box to filter your entries by title, content, or date
 
-5. **Ver entrada completa**:
-   - Haz clic en cualquier parte de una tarjeta de entrada para ver su contenido completo
+5. **View full entry**:
+   - Click anywhere on an entry card to view its complete content
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
-- **HTML5**: Estructura semántica y accesible
-- **CSS3**: Diseño moderno con variables CSS, Grid y Flexbox
-- **JavaScript (ES6+)**: Funcionalidad interactiva con clases y programación orientada a objetos
-- **LocalStorage API**: Almacenamiento persistente de datos localmente
+- **HTML5**: Semantic and accessible structure
+- **CSS3**: Modern design with CSS variables, Grid, and Flexbox
+- **JavaScript (ES6+)**: Interactive functionality with classes and object-oriented programming
+- **LocalStorage API**: Local persistent data storage
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
 ```
-diario-personal/
+personal-diary/
 │
-├── index.html          # Página principal
+├── index.html          # Main page
 ├── css/
-│   └── style.css       # Estilos de la aplicación
+│   └── style.css       # Application styles
 ├── js/
-│   └── app.js          # Lógica de la aplicación
-├── images/             # Carpeta para imágenes (opcional)
-└── README.md           # Este archivo
+│   └── app.js          # Application logic
+├── images/             # Folder for images (optional)
+└── README.md           # This file
 ```
 
-## 🎨 Personalización
+## 🎨 Customization
 
-Puedes personalizar fácilmente la apariencia de la aplicación modificando las variables CSS en el archivo `css/style.css`:
+You can easily customize the appearance of the application by modifying the CSS variables in the `css/style.css` file:
 
 ```css
 :root {
@@ -82,31 +82,31 @@ Puedes personalizar fácilmente la apariencia de la aplicación modificando las 
     --secondary-color: #8b5cf6;
     --success-color: #10b981;
     --danger-color: #ef4444;
-    /* ... más variables */
+    /* ... more variables */
 }
 ```
 
-## 📝 Notas
+## 📝 Notes
 
-- **Almacenamiento local**: Todas las entradas se guardan en el almacenamiento local del navegador. Si limpias los datos del navegador, perderás tus entradas.
-- **Compatibilidad**: Funciona en todos los navegadores modernos (Chrome, Firefox, Safari, Edge)
-- **Privacidad**: Todos tus datos permanecen en tu dispositivo. No se envía ninguna información a servidores externos.
+- **Local storage**: All entries are saved in your browser's local storage. If you clear your browser data, you will lose your entries.
+- **Compatibility**: Works on all modern browsers (Chrome, Firefox, Safari, Edge)
+- **Privacy**: All your data stays on your device. No information is sent to external servers.
 
-## 🤝 Contribuciones
+## 🤝 Contributing
 
-Las contribuciones son bienvenidas. Siéntete libre de:
-- Reportar bugs
-- Sugerir nuevas características
-- Enviar pull requests
+Contributions are welcome. Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto es de código abierto y está disponible bajo la [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Creado con ❤️ como parte del Plan GitHub - Día 2
+Created with ❤️ as part of the GitHub Plan - Day 2
 
 ---
 
-⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
+⭐ If you like this project, give it a star on GitHub!
